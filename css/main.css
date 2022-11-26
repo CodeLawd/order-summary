@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 400px;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+.hero-img {
+  width: 100%;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.content-area {
+  padding: 40px
+}
+
+.content-heading {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+}
+.content-area .ct > p:last-child {
+  color: grey;
+  margin: 10px 0
+}
+
+.change {
+  background-color: rgb(218, 218, 218);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.music {
+  display: flex;
+  align-items: center;
+  gap: 20px
+}
